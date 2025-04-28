@@ -5,9 +5,8 @@ public class arearect {
         Scanner a = new Scanner(System.in);
         System.out.println("Enter length: ");
         int len = a.nextInt();
-        Scanner b = new Scanner(System.in);
         System.out.println("Enter breadth: ");
-        int bre = b.nextInt();
+        int bre = a.nextInt();
         double area;
         double perimeter;
         area = len * bre;
@@ -17,7 +16,7 @@ public class arearect {
         System.out.println("The perimeter is: ");
         System.out.println(perimeter);
         a.close();
-        b.close();
+        
 
     }
     
